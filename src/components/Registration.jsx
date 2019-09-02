@@ -1,5 +1,5 @@
 import React from  "react"
-
+import {buttonStyle, depth} from './style'
 export default class Registration extends React.Component {
     constructor(props){
         super(props);
@@ -18,7 +18,7 @@ export default class Registration extends React.Component {
     }
     render(){
         return (
-            <div className={"registration"}>
+            <div className={"registration"} style={{height:'180px'}}>
                 <h3>Sign Up</h3>
                 <form>
                     <div>
@@ -29,6 +29,7 @@ export default class Registration extends React.Component {
                                spellCheck={false}
                                onChange={this.onEmailChange}
                                value={this.props.email}
+                               style={depth}
                         />
                     </div>
                     <div>
@@ -37,6 +38,7 @@ export default class Registration extends React.Component {
                                placeholder={"Password"}
                                value={this.props.password}
                                onChange={this.onPasswordChange}
+                               style={depth}
                         />
                     </div>
                     <div>
@@ -45,10 +47,12 @@ export default class Registration extends React.Component {
                                placeholder={"Repeat password"}
                                onChange={this.onRepeatPasswordChange}
                                value={this.props.repeatPassword}
+                               style={depth}
                         />
                     </div>
                     <div>
-                        <button>Sign Up</button>
+                        <p> </p>
+                        <button style={buttonStyle}>Sign Up</button>
                     </div>
                 </form>
             </div>

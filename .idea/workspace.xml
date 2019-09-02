@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14167b90-173c-474b-bb7b-d1807cd2757f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Auth.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NotMainComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Registration.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RegistrationContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/main/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/main/reducers/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/registration/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/registration/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/style.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/auth/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +104,17 @@
       <workItem from="1567097775841" duration="5681000" />
       <workItem from="1567110914990" duration="10274000" />
       <workItem from="1567270730781" duration="10563000" />
-      <workItem from="1567325215093" duration="18864000" />
+      <workItem from="1567325215093" duration="20011000" />
+      <workItem from="1567406544328" duration="6068000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1567365290596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567365290596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
