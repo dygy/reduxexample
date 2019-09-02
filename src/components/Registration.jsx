@@ -1,5 +1,5 @@
 import React from  "react"
-import {buttonStyle, depth} from './style'
+import {buttonStyle, depth, title} from './style'
 export default class Registration extends React.Component {
     constructor(props){
         super(props);
@@ -18,10 +18,10 @@ export default class Registration extends React.Component {
     }
     render(){
         return (
-            <div className={"registration"} style={{height:'180px'}}>
-                <h3>Sign Up</h3>
+            <div className={"registration"} style={{height:'200px'}}>
+                <h3 style={title}>Sign Up</h3>
                 <form>
-                    <div>
+                    <div style={{padding:'5px'}}>
                         <input type={"text"}
                                name={"login"}
                                autoComplete={"off"}
@@ -32,7 +32,7 @@ export default class Registration extends React.Component {
                                style={depth}
                         />
                     </div>
-                    <div>
+                    <div style={{padding:'5px'}}>
                         <input type={"password"}
                                name={"password"}
                                placeholder={"Password"}
@@ -41,7 +41,7 @@ export default class Registration extends React.Component {
                                style={depth}
                         />
                     </div>
-                    <div>
+                    <div style={{padding:'5px'}}>
                         <input type={"password"}
                                name={"password"}
                                placeholder={"Repeat password"}

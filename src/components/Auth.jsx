@@ -1,5 +1,5 @@
 import React from  "react"
-import {buttonStyle, depth} from './style'
+import {buttonStyle, depth, title} from './style'
 export default class Auth extends React.Component {
 
     constructor(props){
@@ -15,10 +15,10 @@ export default class Auth extends React.Component {
     }
     render(){
         return (
-            <div className={"auth"} style={{height:'150px'}}>
-                <h3>Sign In</h3>
+            <div className={"auth"} style={{height:'200px'}}>
+                <h3 style={title}>Sign In</h3>
                 <form>
-                    <div>
+                    <div style={{padding:'5px'}}>
                         <input
                             style={depth}
                             type={"text"}
@@ -30,7 +30,7 @@ export default class Auth extends React.Component {
                             onChange={this.onEmailChange}
                         />
                     </div>
-                    <div>
+                    <div style={{padding:'5px'}}>
                         <input
                             style={depth}
                             type={"password"}

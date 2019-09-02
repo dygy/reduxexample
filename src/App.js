@@ -7,6 +7,7 @@ import RegistrationContainer from "./components/RegistrationContainer";
 import './index.css';
 import {form} from './components/style'
 const store = createStore(rootReducer);
+
 export default class App extends React.Component{
     render(){
         return(
@@ -14,7 +15,7 @@ export default class App extends React.Component{
             <div className={"wrapper"}>
                 <h1>Complex State</h1>
                 <div className={"forms"} style={form}>
-                    <AuthContainer/>
+                   <AuthContainer/>
                 </div>
 
                 <div className={"forms"}
