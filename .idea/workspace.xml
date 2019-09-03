@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14167b90-173c-474b-bb7b-d1807cd2757f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
+    <list default="true" id="14167b90-173c-474b-bb7b-d1807cd2757f" name="Default Changelist" comment="sessionStorage and if render statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/legacy/MainComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotMainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/legacy/NotMainComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegistrationContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +103,7 @@
       <workItem from="1567270730781" duration="10563000" />
       <workItem from="1567325215093" duration="20011000" />
       <workItem from="1567406544328" duration="6893000" />
-      <workItem from="1567495896750" duration="4140000" />
+      <workItem from="1567495896750" duration="4866000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1567365290596</created>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567413060764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sessionStorage and if render statement">
+      <created>1567500233162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567500233162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="sessionStorage and if render statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="sessionStorage and if render statement" />
   </component>
 </project>

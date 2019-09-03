@@ -29,22 +29,19 @@ export  const depth ={
 export const form ={
     display:'inline-block',
     textAlign : 'center',
+    width:'200px',
     color:'whitesmoke',
     background: 'rgba(19, 35, 47, 0.9)',
     margin: '40px auto',
     borderRadius: '4px',
     boxShadow: '0 4px 10px 4px rgba(19, 35, 47, 0.3)',
-}
-export const auth ={
+};
 
-}
 export const title ={
     fontFamily:"cursive",
     padding: '10px'
-}
-export const reg = {
+};
 
-}
 export const wrapper= {
     textAlign: 'center'
 };

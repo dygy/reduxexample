@@ -21,7 +21,7 @@ export default class Auth extends React.Component {
     render(){
 
         return (
-            <div className={"auth"} style={{height:'200px'}}>
+            <div className={"auth"} style={{height:'180px'}}>
                 <h3 style={title}>Sign In</h3>
                 <form>
                     <div style={{padding:'5px'}}>
@@ -47,7 +47,7 @@ export default class Auth extends React.Component {
                         />
                     </div>
                     <div>
-                        <p> </p>
+                        <div style={{height:'10px'}}> </div>
                         <button
                             style={buttonStyle}
                             onClick={this.onUnsign}

@@ -56,7 +56,7 @@ export default class Registration extends React.Component {
                         />
                     </div>
                     <div>
-                        <p> </p>
+                        <div style={{height:'10px'}}> </div>
                         <button
                             style={buttonStyle}
                             onClick={this.onSign}
