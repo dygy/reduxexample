@@ -10,7 +10,7 @@ export const buttonStyle={
     background: '#1ab188',
     color: '#ffffff',
     transition: 'all 0.5s ease',
-    webkitAppearance: 'none',
+    WebkitAppearance: 'none',
     width: '100px'
 };
 export  const depth ={
@@ -27,6 +27,7 @@ export  const depth ={
     fontFamily:"customfont"
 };
 export const form ={
+    display:'inline-block',
     textAlign : 'center',
     color:'whitesmoke',
     background: 'rgba(19, 35, 47, 0.9)',
@@ -44,3 +45,6 @@ export const title ={
 export const reg = {
 
 }
+export const wrapper= {
+    textAlign: 'center'
+};

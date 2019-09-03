@@ -4,16 +4,22 @@ export default class Auth extends React.Component {
 
     constructor(props){
         super(props);
-        this.onEmailChange= this.onEmailChange.bind(this)
-        this.onPasswordChange = this.onPasswordChange.bind(this)
-   }
+        this.onEmailChange= this.onEmailChange.bind(this);
+        this.onPasswordChange = this.onPasswordChange.bind(this);
+        this.onUnsign = this.onUnsign.bind(this)
+    }
     onEmailChange (event){
         this.props.setEmail(event.target.value)
     }
     onPasswordChange(event){
         this.props.setPass(event.target.value)
     }
+    onUnsign(){
+        sessionStorage.setItem('sign',false);
+        this.props.signIn()
+    }
     render(){
+
         return (
             <div className={"auth"} style={{height:'200px'}}>
                 <h3 style={title}>Sign In</h3>
@@ -42,7 +48,10 @@ export default class Auth extends React.Component {
                     </div>
                     <div>
                         <p> </p>
-                        <button style={buttonStyle}>Sign In</button>
+                        <button
+                            style={buttonStyle}
+                            onClick={this.onUnsign}
+                        >Sign In</button>
                     </div>
                 </form>
             </div>

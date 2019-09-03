@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14167b90-173c-474b-bb7b-d1807cd2757f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/style.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/legacy/MainComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotMainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/legacy/NotMainComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/auth/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegistrationContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/style.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/style.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yukim\WebstormProjects\reduxexample\src\components\legacy" />
       <recent name="C:\Users\yukim\WebstormProjects\reduxexample\src\store\main" />
       <recent name="C:\Users\yukim\WebstormProjects\reduxexample\src\store" />
       <recent name="C:\Users\yukim\WebstormProjects\untitled2\src" />
@@ -105,7 +110,8 @@
       <workItem from="1567110914990" duration="10274000" />
       <workItem from="1567270730781" duration="10563000" />
       <workItem from="1567325215093" duration="20011000" />
-      <workItem from="1567406544328" duration="6068000" />
+      <workItem from="1567406544328" duration="6893000" />
+      <workItem from="1567495896750" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1567365290596</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567365290596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1567413060764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567413060764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

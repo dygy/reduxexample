@@ -6,6 +6,7 @@ export default class Registration extends React.Component {
         this.onEmailChange= this.onEmailChange.bind(this);
         this.onPasswordChange = this.onPasswordChange.bind(this);
         this.onRepeatPasswordChange = this.onRepeatPasswordChange.bind(this);
+        this.onSign = this.onSign.bind(this)
     }
     onEmailChange (event){
         this.props.setEmail(event.target.value)
@@ -16,9 +17,13 @@ export default class Registration extends React.Component {
     onRepeatPasswordChange(event){
         this.props.setRepPass(event.target.value)
     }
+    onSign(){
+        sessionStorage.setItem("sign",true);
+        this.props.signIn()
+    }
     render(){
         return (
-            <div className={"registration"} style={{height:'200px'}}>
+            <div className={"registration"} style={{height:'220px'}}>
                 <h3 style={title}>Sign Up</h3>
                 <form>
                     <div style={{padding:'5px'}}>
@@ -52,7 +57,10 @@ export default class Registration extends React.Component {
                     </div>
                     <div>
                         <p> </p>
-                        <button style={buttonStyle}>Sign Up</button>
+                        <button
+                            style={buttonStyle}
+                            onClick={this.onSign}
+                        >Sign Up</button>
                     </div>
                 </form>
             </div>

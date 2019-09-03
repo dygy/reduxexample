@@ -1,7 +1,7 @@
 import React from "react";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
-import {changePassword,changeName} from '../store/main/actions/actions'
+import {changePassword,changeName} from '../../store/main/actions/actions'
 class MainComponent extends React.Component{
     render(){
      //   console.log(this.props);
